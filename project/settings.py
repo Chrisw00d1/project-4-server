@@ -92,7 +92,7 @@ DATABASES = {}
 if str(os.getenv('ENVIRONMENT')) == 'development':
     DATABASES['default'] =  {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'music-maker-db', 
+        'NAME': 'music-maker-db',
         'HOST': 'localhost',
         'PORT': 5432
     }
